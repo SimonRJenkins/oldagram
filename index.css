@@ -1,5 +1,30 @@
 html,
 body {
     margin: 0;
+    margin-top: 5px;
     padding: 0;
+}
+
+header {
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    margin-top: 16;
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.logo,
+.avatar {
+    margin-bottom: 10;
 }

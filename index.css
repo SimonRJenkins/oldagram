@@ -26,5 +26,91 @@ header {
 
 .logo,
 .avatar {
-    margin-bottom: 10;
+    margin-bottom: 10px;
+}
+
+.user-post-information {
+    margin-top: 20;
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.user-post-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.user-name {
+    margin-bottom: 0px;
+}
+
+.user-location {
+    font-size: 12px;
+}
+
+.user-name,
+.user-location {
+    font-family: 'Source Sans 3', sans-serif;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.name-location {
+    margin-top: 0;
+}
+
+.vangogh-picture {
+    width: 100%;
+    height: auto;
+}
+
+.user-icons {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.like,
+.comment,
+.message {
+    width: 23.3px;
+    height: 22.13px;
+    padding-right: 10px;
+}
+
+.image-information {
+    margin-left: 10;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.likes {
+    margin-top: 0;
+}
+
+.likes,
+.poster,
+.user-name {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+span,
+.user-location {
+    font-weight: 400;
+}
+
+.like:hover {
+    width: 30px;
+    height: 26px;
+}
+
+.comment:hover {
+    width: 30px;
+    height: 26px;
+}
+
+.message:hover {
+    width: 30px;
+    height: 26px;
 }
